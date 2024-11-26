@@ -9,15 +9,15 @@ class DadosScreen extends JPanel {
         setBackground(Color.WHITE);
 
         // Export Data Button
-        JButton exportButton = createStyledButton("Exportar Dados", new Color(46, 204, 113)); // Green
+        JButton exportButton = createStyledButton("Trocar conta", new Color(46, 204, 113)); // Green
         add(exportButton);
 
         // Import Data Button
-        JButton importButton = createStyledButton("Importar Dados", new Color(52, 152, 219)); // Blue
+        JButton importButton = createStyledButton("Fazer logout", new Color(52, 152, 219)); // Blue
         add(importButton);
 
         // Delete Data Button
-        JButton deleteButton = createStyledButton("Deletar Dados", new Color(231, 76, 60)); // Red
+        JButton deleteButton = createStyledButton("Apagar conta", new Color(231, 76, 60)); // Red
         add(deleteButton);
     }
 
